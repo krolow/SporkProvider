@@ -1,0 +1,20 @@
+{
+	"name" : "cobaia/spork-provider",
+	"description" : "Dependecy Injection provider for Spork to use in Silex or Cilex",
+	"keywords" : ["spork", "provider", "silex", "cilex"],
+	"homepage" : "http://github.com/krolow/SporkProvider",
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name" : "Vinícius Krolow",
+			"email" : "krolow@gmail.com"
+		}
+	],
+	"require" : {
+		"php": ">=5.3.3",
+		"spork" : "*"
+	},
+	"autoload": {
+        "psr-0": { "Cobaia": "src/" }
+    }
+}
