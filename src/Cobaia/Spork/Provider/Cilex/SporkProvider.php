@@ -1,5 +1,5 @@
 <?php
-namespace Cobaia\Evenement\Provider\Cilex;
+namespace Cobaia\Spork\Provider\Cilex;
 
 use Spork\ProcessManager;
 use Cilex\Application;
